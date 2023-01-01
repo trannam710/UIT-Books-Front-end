@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en"><!-- InstanceBegin template="/Templates/bookstoreAdmin.dwt" codeOutsideHTMLIsLocked="false" -->
+    
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Site Metas -->
+    <!-- InstanceBeginEditable name="title" -->
+    <title>Dashboard</title>
+    <!-- InstanceEndEditable -->
+    <!-- Site Icons -->
+    <link rel="icon" href="./images/logo.jpg" type="image/x-icon">
+    <!--<link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
+
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css"
+      rel="stylesheet"/>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="./css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/custom.css">
+    <!-- Icon CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <header>
+  <!-- Sidebar --><!-- InstanceBeginEditable name="nav" -->
+  <nav
+       id="sidebarMenu"
+       class="collapse d-lg-block sidebar collapse"
+       >
+    <div class="position-sticky">
+      <div class="list-group list-group-flush mx-3 mt-4"> <a
+           href="dashboard.html"
+           class="list-group-item list-group-item-action py-2 ripple active"
+           aria-current="true"
+           > <i class="fa fa-dashboard fa-fw me-3"></i
+            ><span>Dashboard</span> </a> <a
+           href="order-list.html"
+           class="list-group-item list-group-item-action py-2 ripple"
+           > <i class="fas fa-shopping-cart fa-fw me-3"></i
+            ><span>Đơn Hàng</span> </a> <a
+           href="user-list.html"
+           class="list-group-item list-group-item-action py-2 ripple"
+           ><i class="fas fa-user fa-fw me-3"></i><span>Khách Hàng</span></a
+          > <a
+           href="product-list.html"
+           class="list-group-item list-group-item-action py-2 ripple"
+           ><i class="fas fa-warehouse fa-fw me-3"></i
+          ><span>Kho Hàng</span></a
+          > <a
+           href="#"
+           class="list-group-item list-group-item-action py-2 ripple"
+           > <i class="fas fa-percent fa-fw me-3"></i><span>Mã Giảm Giá</span> </a> </div>
+    </div>
+  </nav>
+  <!-- InstanceEndEditable --><!-- Sidebar -->
+
+  <!-- Navbar -->
+  <nav
+       id="main-navbar"
+       class="navbar navbar-expand-lg navbar-light bg-white fixed-top"
+       >
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+      <!-- Toggle button -->
+      <button
+              class="navbar-toggler"
+              type="button"
+              data-mdb-toggle="collapse"
+              data-mdb-target="#sidebarMenu"
+              aria-controls="sidebarMenu"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+              >
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <!-- Brand -->
+      <a class="navbar-brand" href="#">
+        <img
+             src="./images/logo.jpg"
+             height="54px"
+             alt=""
+             loading="lazy"
+             />
+      </a>
+        
+    <strong class="brand-name" style="margin:auto">UIT BOOKS</strong>
+
+      <!-- Right links -->
+      <ul class="navbar-nav d-inline-flex">
+        <!-- Avatar -->
+        <li class="nav-item dropdown">
+          <a
+             class="nav-link dropdown-toggle hidden-arrow d-inline-flex"
+             href="#"
+             id="navbarDropdownMenuLink"
+             role="button"
+             data-mdb-toggle="dropdown"
+             aria-expanded="false"
+             >
+            <img
+                 src="./images/avatar.png"
+                 class="rounded-circle"
+                 height="22"
+                 alt=""
+                 loading="lazy"
+                 />
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end"
+              aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Thông tin</a></li>
+            <li><a class="dropdown-item" href="#">Cài đặt</a></li>
+            <li><a class="dropdown-item" href="#">Đăng xuất</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <!-- Container wrapper -->
+  </nav>
+  <!-- Navbar -->
+</header>
+<!--Main Navigation-->
+
+<!--Main layout-->
+<main style="margin-top: 58px">
+  <div class="container-fluid pt-3">
+      
+      
+  <!-- InstanceBeginEditable name="Content" -->
+  
+  <div class="ibox">
+    <div class="ibox-body">
+      <div class="title">Danh Sách Tài Khoản</div>
+      <div class="row">
+        <div class="col-12 edit-box">
+          <a href="checkout.html" class=" btn">Khoá Tài Khoản</a> 
+          <a href="checkout.html" class=" btn">Xoá Tài Khoản</a> 
+        </div>
+      </div>
+      
+      <div class="table-responsive">
+          <table class="table">
+              <thead>
+                  <tr>
+                      <th width="50px"></th>
+                      <th>Tên Khách Hàng</th>
+                      <th>Ngày Tạo</th>
+                      <th>Tình Trạng</th>
+                      <th>Chi Tiêu</th>
+                      <th>Loại Tài Khoản</th>
+                      <th>Hành Động</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>
+                          <label class="ui-checkbox">
+                              <input type="checkbox">
+                              <span class="input-span"></span>
+                          </label>
+                      </td>
+                      <td>Trần Đình Nam</td>
+                      <td>07/10/2001</td>
+                      <td>Hoạt động</td>
+                      <td>50.000.000đ</td>
+                      <td>User</td>
+                      <td>
+                          <button class="btn btn-default btn-xs m-r-5" data-toggle="tooltip" data-original-title="Edit"><i class="fa fa-pencil font-14"></i></button>
+                          <button class="btn btn-default btn-xs" data-toggle="tooltip" data-original-title="Delete"><i class="fa fa-trash font-14"></i></button>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>
+                          <label class="ui-checkbox">
+                              <input type="checkbox">
+                              <span class="input-span"></span>
+                          </label>
+                        </td>
+                        <td>Trần Đình Nam</td>
+                        <td>07/10/2001</td>
+                        <td>Hoạt động</td>
+                        <td>50.000.000đ</td>
+                        <td>User</td>
+                        <td>
+                          <button class="btn btn-default btn-xs m-r-5" data-toggle="tooltip" data-original-title="Edit"><i class="fa fa-pencil font-14"></i></button>
+                          <button class="btn btn-default btn-xs" data-toggle="tooltip" data-original-title="Delete"><i class="fa fa-trash font-14"></i></button>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>
+                          <label class="ui-checkbox">
+                              <input type="checkbox">
+                              <span class="input-span"></span>
+                          </label>
+                        </td>
+                        <td>Trần Đình Nam</td>
+                        <td>07/10/2001</td>
+                        <td>Hoạt động</td>
+                        <td>50.000.000đ</td>
+                        <td>User</td>
+                        <td>
+                          <button class="btn btn-default btn-xs m-r-5" data-toggle="tooltip" data-original-title="Edit"><i class="fa fa-pencil font-14"></i></button>
+                          <button class="btn btn-default btn-xs" data-toggle="tooltip" data-original-title="Delete"><i class="fa fa-trash font-14"></i></button>
+                      </td>
+                  </tr>
+                  <tr>
+                    <td>
+                        <label class="ui-checkbox">
+                            <input type="checkbox">
+                            <span class="input-span"></span>
+                        </label>
+                      </td>
+                      <td>Trần Đình Nam</td>
+                      <td>07/10/2001</td>
+                      <td>Hoạt động</td>
+                      <td>50.000.000đ</td>
+                      <td>User</td>
+                      <td>
+                        <button class="btn btn-default btn-xs m-r-5" data-toggle="tooltip" data-original-title="Edit"><i class="fa fa-pencil font-14"></i></button>
+                        <button class="btn btn-default btn-xs" data-toggle="tooltip" data-original-title="Delete"><i class="fa fa-trash font-14"></i></button>
+                    </td>
+                </tr>
+                <tr>
+                  <td>
+                      <label class="ui-checkbox">
+                          <input type="checkbox">
+                          <span class="input-span"></span>
+                      </label>
+                    </td>
+                    <td>Trần Đình Nam</td>
+                    <td>07/10/2001</td>
+                    <td>Hoạt động</td>
+                    <td>50.000.000đ</td>
+                    <td>User</td>
+                    <td>
+                      <button class="btn btn-default btn-xs m-r-5" data-toggle="tooltip" data-original-title="Edit"><i class="fa fa-pencil font-14"></i></button>
+                      <button class="btn btn-default btn-xs" data-toggle="tooltip" data-original-title="Delete"><i class="fa fa-trash font-14"></i></button>
+                  </td>
+              </tr>
+              <tr>
+                <td>
+                    <label class="ui-checkbox">
+                        <input type="checkbox">
+                        <span class="input-span"></span>
+                    </label>
+                  </td>
+                  <td>Trần Đình Nam</td>
+                  <td>07/10/2001</td>
+                  <td>Hoạt động</td>
+                  <td>50.000.000đ</td>
+                  <td>User</td>
+                  <td>
+                    <button class="btn btn-default btn-xs m-r-5" data-toggle="tooltip" data-original-title="Edit"><i class="fa fa-pencil font-14"></i></button>
+                    <button class="btn btn-default btn-xs" data-toggle="tooltip" data-original-title="Delete"><i class="fa fa-trash font-14"></i></button>
+                </td>
+            </tr>
+            <tr>
+              <td>
+                  <label class="ui-checkbox">
+                      <input type="checkbox">
+                      <span class="input-span"></span>
+                  </label>
+                </td>
+                <td>Trần Đình Nam</td>
+                <td>07/10/2001</td>
+                <td>Hoạt động</td>
+                <td>50.000.000đ</td>
+                <td>User</td>
+                <td>
+                  <button class="btn btn-default btn-xs m-r-5" data-toggle="tooltip" data-original-title="Edit"><i class="fa fa-pencil font-14"></i></button>
+                  <button class="btn btn-default btn-xs" data-toggle="tooltip" data-original-title="Delete"><i class="fa fa-trash font-14"></i></button>
+              </td>
+          </tr>
+          <tr>
+            <td>
+                <label class="ui-checkbox">
+                    <input type="checkbox">
+                    <span class="input-span"></span>
+                </label>
+              </td>
+              <td>Trần Đình Nam</td>
+              <td>07/10/2001</td>
+              <td>Hoạt động</td>
+              <td>50.000.000đ</td>
+              <td>User</td>
+              <td>
+                <button class="btn btn-default btn-xs m-r-5" data-toggle="tooltip" data-original-title="Edit"><i class="fa fa-pencil font-14"></i></button>
+                <button class="btn btn-default btn-xs" data-toggle="tooltip" data-original-title="Delete"><i class="fa fa-trash font-14"></i></button>
+            </td>
+        </tr>
+        <tr>
+          <td>
+              <label class="ui-checkbox">
+                  <input type="checkbox">
+                  <span class="input-span"></span>
+              </label>
+            </td>
+            <td>Trần Đình Nam</td>
+            <td>07/10/2001</td>
+            <td>Hoạt động</td>
+            <td>50.000.000đ</td>
+            <td>User</td>
+            <td>
+              <button class="btn btn-default btn-xs m-r-5" data-toggle="tooltip" data-original-title="Edit"><i class="fa fa-pencil font-14"></i></button>
+              <button class="btn btn-default btn-xs" data-toggle="tooltip" data-original-title="Delete"><i class="fa fa-trash font-14"></i></button>
+          </td>
+      </tr>
+      <tr>
+        <td>
+            <label class="ui-checkbox">
+                <input type="checkbox">
+                <span class="input-span"></span>
+            </label>
+          </td>
+          <td>Trần Đình Nam</td>
+          <td>07/10/2001</td>
+          <td>Hoạt động</td>
+          <td>50.000.000đ</td>
+          <td>User</td>
+          <td>
+            <button class="btn btn-default btn-xs m-r-5" data-toggle="tooltip" data-original-title="Edit"><i class="fa fa-pencil font-14"></i></button>
+            <button class="btn btn-default btn-xs" data-toggle="tooltip" data-original-title="Delete"><i class="fa fa-trash font-14"></i></button>
+        </td>
+    </tr>
+              </tbody>
+          </table>
+      </div>
+    </div>
+  </div>
+    
+  <!-- InstanceEndEditable -->
+      
+  </div>
+    <!-- Copyright  -->
+  <div class="footer-copyright">
+    <p class="footer-company">All Rights Reserved. &copy; 2022 <a href="./index.html">BOOK STORE</a> </p>
+  </div>
+    <!-- Copyright  -->
+
+    <a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
+</main>
+    
+    <!-- ALL JS FILES -->
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/admin.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="./js/jquery.superslides.min.js"></script>
+    <script src="./js/bootstrap-select.js"></script>
+    <script src="./js/inewsticker.js"></script>
+    <script src="./js/bootsnav.js."></script>
+    <script src="./js/images-loded.min.js"></script>
+    <script src="./js/isotope.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/baguetteBox.min.js"></script>
+    <script src="./js/form-validator.min.js"></script>
+    <script src="./js/contact-form-script.js"></script>
+    <script src="./js/custom.js"></script>
+</body>
+
+<!-- InstanceEnd --></html>

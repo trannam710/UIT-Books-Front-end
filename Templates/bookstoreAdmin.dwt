@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+    
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,8 +9,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Site Metas -->
+    <!-- TemplateBeginEditable name="title" -->
     <title>Book Hub</title>
-
+    <!-- TemplateEndEditable -->
     <!-- Site Icons -->
     <link rel="icon" href="./images/logo.jpg" type="image/x-icon">
     <!--<link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
@@ -29,54 +30,44 @@
     <link rel="stylesheet" href="./css/responsive.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./css/custom.css">
+    <!-- Icon CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
     <header>
-  <!-- Sidebar -->
+  <!-- Sidebar --><!-- TemplateBeginEditable name="nav" -->
   <nav
        id="sidebarMenu"
        class="collapse d-lg-block sidebar collapse"
        >
     <div class="position-sticky">
-      <div class="list-group list-group-flush mx-3 mt-4">
-        <a
+      <div class="list-group list-group-flush mx-3 mt-4"> <a
            href="#"
            class="list-group-item list-group-item-action py-2 ripple active"
            aria-current="true"
-           >
-          <i class="fa fa-tachometer-alt fa-fw me-3"></i
-            ><span>Dashboard</span>
-        </a>
-        <a
-           href="#"
+           > <i class="fas fa-dashboard fa-fw me-3"></i
+            ><span>Dashboard</span> </a> <a
+           href="../dashboard.html"
            class="list-group-item list-group-item-action py-2 ripple"
-           >
-          <i class="fas fa-shopping-cart fa-fw me-3"></i
-            ><span>Đơn Hàng</span>
-        </a>
-        <a
-           href="#"
+           > <i class="fas fa-shopping-cart fa-fw me-3"></i
+            ><span>Đơn Hàng</span> </a> <a
+           href="../order-list.html"
            class="list-group-item list-group-item-action py-2 ripple"
            ><i class="fas fa-user fa-fw me-3"></i><span>Khách Hàng</span></a
-          >
-        <a
-           href="#"
+          > <a
+           href="../user-list.html"
            class="list-group-item list-group-item-action py-2 ripple"
            ><i class="fas fa-warehouse fa-fw me-3"></i
           ><span>Kho Hàng</span></a
-          >
-        <a
-           href="#"
+          > <a
+           href="../product-list.html"
            class="list-group-item list-group-item-action py-2 ripple"
-           >
-          <i class="fas fa-percent fa-fw me-3"></i><span>Mã Giảm Giá</span>
-        </a>
-      </div>
+           > <i class="fas fa-percent fa-fw me-3"></i><span>Mã Giảm Giá</span> </a> </div>
     </div>
   </nav>
-  <!-- Sidebar -->
+  <!-- TemplateEndEditable --><!-- Sidebar -->
 
   <!-- Navbar -->
   <nav

@@ -2407,7 +2407,8 @@ body {
      background: #d33b33;
 }
  .table-responsive .table td, .table-responsive .table th {
-     vertical-align: middle;
+     vertical-align: auto;
+     text-align: center;
      white-space: nowrap;
 }
 .img-fluid {
@@ -2463,4 +2464,26 @@ body {
 
 .list-group-item.active {
     background-color: #d33b33;
+}
+
+.ibox .ibox-body {
+    padding: 15px 20px 20px 20px;
+}
+
+.edit-box a{
+    font-size: 18px;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    background-color: #d33b33;
+    margin: 20px 10px;
+}
+
+.title {
+    font-size: 35px;
+    text-transform: uppercase;
+    font-style: bold;
+    font-weight: 700;
+    margin-left: 25px;
+    color: #d33b33;
 }
