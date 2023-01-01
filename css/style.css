@@ -2487,3 +2487,7 @@ body {
     margin-left: 25px;
     color: #d33b33;
 }
+
+.table-responsive .table td > a{
+    color: #d33b33;
+}
