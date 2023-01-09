@@ -143,205 +143,113 @@
       
   <!-- InstanceBeginEditable name="Content" -->
   
-  <div class="ibox">
-    <div class="ibox-body">
-      <div class="title">Danh Sách Tài Khoản</div>
-      <div class="row">
-        <div class="col-12 edit-box">
-          <a href="checkout.html" class=" btn">Khoá Tài Khoản</a> 
-          <a href="checkout.html" class=" btn">Xoá Tài Khoản</a> 
+  <div class="contact-box-main ">
+    <div class="container ">
+        <div class="row ">
+            <div class="title">Nhập Thông Tin Sách</div>
+            <div class="col-lg-6 col-sm-12 ">
+              <div class="contact-form-right ">
+                  <p> </p>
+                  <form id="contactForm ">
+                      <div class="row ">
+                          <div class="col-md-12 ">
+                              <div class="form-group ">
+                                  <input type="text " class="form-control " id="bookname " name="bookname" placeholder="Tên Sách" required data-error="Please enter book name ">
+                                  <div class="help-block with-errors "></div>
+                              </div>
+                          </div>
+                          <div class="col-md-12 ">
+                              <div class="form-group ">
+                                <input type="text " class="form-control " id="author " name="author" placeholder="Tên Tác Gả" required data-error="Please enter author ">
+                                  <div class="help-block with-errors "></div>
+                              </div>
+                          </div>
+                          <div class="col-md-12 ">
+                              <div class="form-group ">
+                                  <input type="text " class="form-control " id="category " name="category " placeholder="Thể Loại " required data-error="Please enter category">
+                                  <div class="help-block with-errors "></div>
+                              </div>
+                          </div>
+                          <div class="col-md-12 ">
+                              <div class="form-group ">
+                                  <input type="text " class="form-control " id="publish" name="publish " placeholder="Nhà Xuất Bản " required data-error="Please enter publish">
+                                  <div class="help-block with-errors "></div>
+                              </div>
+                          </div>
+                      </div>
+                  </form>
+              </div>
+          </div>
+            <div class="col-lg-6 col-sm-12 ">
+                <div class="contact-form-right ">
+                    <p> </p>
+                    <form id="contactForm ">
+                        <div class="row ">
+                            <div class="col-md-12 ">
+                                <div class="form-group ">
+                                    <input type="text " class="form-control " id="year" name="year" placeholder="Năm Xuất Bản " required data-error="Please enter publish year">
+                                    <div class="help-block with-errors "></div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 ">
+                                <div class="form-group ">
+                                    <input type="text " class="form-control " id="translator" name="translator" placeholder="Dịch Giả " required data-error="Please enter translator">
+                                    <div class="help-block with-errors "></div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 ">
+                                <div class="form-group ">
+                                    <input type="text " class="form-control " id="price " name="price " placeholder="Giá " required data-error="Please enter your price ">
+                                    <div class="help-block with-errors "></div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 ">
+                                <div class="form-group ">
+                                    <input type="text " class="form-control " id="amount " name="amount " placeholder="Số Lượng " required data-error="Please enter amount ">
+                                    <div class="help-block with-errors "></div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
-      </div>
-      
-      <div class="table-responsive">
-          <table class="table">
-              <thead>
-                  <tr>
-                      <th width="50px"></th>
-                      <th>Tên Khách Hàng</th>
-                      <th>Ngày Tạo</th>
-                      <th>Tình Trạng</th>
-                      <th>Chi Tiêu</th>
-                      <th>Loại Tài Khoản</th>
-                      <th>Hành Động</th>
-                  </tr>
-              </thead>
-              <tbody>
-                  <tr>
-                      <td>
-                          <label class="ui-checkbox">
-                              <input type="checkbox">
-                              <span class="input-span"></span>
-                          </label>
-                      </td>
-                      <td>Trần Đình Nam</td>
-                      <td>07/10/2001</td>
-                      <td>Hoạt động</td>
-                      <td>50.000.000đ</td>
-                      <td>User</td>
-                      <td>
-                          <button class="btn btn-default btn-xs m-r-5" data-toggle="tooltip" data-original-title="Edit"><i class="fa fa-pencil font-14"></i></button>
-                          <button class="btn btn-default btn-xs" data-toggle="tooltip" data-original-title="Delete"><i class="fa fa-trash font-14"></i></button>
-                      </td>
-                  </tr>
-                  <tr>
-                      <td>
-                          <label class="ui-checkbox">
-                              <input type="checkbox">
-                              <span class="input-span"></span>
-                          </label>
-                        </td>
-                        <td>Trần Đình Nam</td>
-                        <td>07/10/2001</td>
-                        <td>Hoạt động</td>
-                        <td>50.000.000đ</td>
-                        <td>User</td>
-                        <td>
-                          <button class="btn btn-default btn-xs m-r-5" data-toggle="tooltip" data-original-title="Edit"><i class="fa fa-pencil font-14"></i></button>
-                          <button class="btn btn-default btn-xs" data-toggle="tooltip" data-original-title="Delete"><i class="fa fa-trash font-14"></i></button>
-                      </td>
-                  </tr>
-                  <tr>
-                      <td>
-                          <label class="ui-checkbox">
-                              <input type="checkbox">
-                              <span class="input-span"></span>
-                          </label>
-                        </td>
-                        <td>Trần Đình Nam</td>
-                        <td>07/10/2001</td>
-                        <td>Hoạt động</td>
-                        <td>50.000.000đ</td>
-                        <td>User</td>
-                        <td>
-                          <button class="btn btn-default btn-xs m-r-5" data-toggle="tooltip" data-original-title="Edit"><i class="fa fa-pencil font-14"></i></button>
-                          <button class="btn btn-default btn-xs" data-toggle="tooltip" data-original-title="Delete"><i class="fa fa-trash font-14"></i></button>
-                      </td>
-                  </tr>
-                  <tr>
-                    <td>
-                        <label class="ui-checkbox">
-                            <input type="checkbox">
-                            <span class="input-span"></span>
-                        </label>
-                      </td>
-                      <td>Trần Đình Nam</td>
-                      <td>07/10/2001</td>
-                      <td>Hoạt động</td>
-                      <td>50.000.000đ</td>
-                      <td>User</td>
-                      <td>
-                        <button class="btn btn-default btn-xs m-r-5" data-toggle="tooltip" data-original-title="Edit"><i class="fa fa-pencil font-14"></i></button>
-                        <button class="btn btn-default btn-xs" data-toggle="tooltip" data-original-title="Delete"><i class="fa fa-trash font-14"></i></button>
-                    </td>
-                </tr>
-                <tr>
-                  <td>
-                      <label class="ui-checkbox">
-                          <input type="checkbox">
-                          <span class="input-span"></span>
-                      </label>
-                    </td>
-                    <td>Trần Đình Nam</td>
-                    <td>07/10/2001</td>
-                    <td>Hoạt động</td>
-                    <td>50.000.000đ</td>
-                    <td>User</td>
-                    <td>
-                      <button class="btn btn-default btn-xs m-r-5" data-toggle="tooltip" data-original-title="Edit"><i class="fa fa-pencil font-14"></i></button>
-                      <button class="btn btn-default btn-xs" data-toggle="tooltip" data-original-title="Delete"><i class="fa fa-trash font-14"></i></button>
-                  </td>
-              </tr>
-              <tr>
-                <td>
-                    <label class="ui-checkbox">
-                        <input type="checkbox">
-                        <span class="input-span"></span>
-                    </label>
-                  </td>
-                  <td>Trần Đình Nam</td>
-                  <td>07/10/2001</td>
-                  <td>Hoạt động</td>
-                  <td>50.000.000đ</td>
-                  <td>User</td>
-                  <td>
-                    <button class="btn btn-default btn-xs m-r-5" data-toggle="tooltip" data-original-title="Edit"><i class="fa fa-pencil font-14"></i></button>
-                    <button class="btn btn-default btn-xs" data-toggle="tooltip" data-original-title="Delete"><i class="fa fa-trash font-14"></i></button>
-                </td>
-            </tr>
-            <tr>
-              <td>
-                  <label class="ui-checkbox">
-                      <input type="checkbox">
-                      <span class="input-span"></span>
-                  </label>
-                </td>
-                <td>Trần Đình Nam</td>
-                <td>07/10/2001</td>
-                <td>Hoạt động</td>
-                <td>50.000.000đ</td>
-                <td>User</td>
-                <td>
-                  <button class="btn btn-default btn-xs m-r-5" data-toggle="tooltip" data-original-title="Edit"><i class="fa fa-pencil font-14"></i></button>
-                  <button class="btn btn-default btn-xs" data-toggle="tooltip" data-original-title="Delete"><i class="fa fa-trash font-14"></i></button>
-              </td>
-          </tr>
-          <tr>
-            <td>
-                <label class="ui-checkbox">
-                    <input type="checkbox">
-                    <span class="input-span"></span>
-                </label>
-              </td>
-              <td>Trần Đình Nam</td>
-              <td>07/10/2001</td>
-              <td>Hoạt động</td>
-              <td>50.000.000đ</td>
-              <td>User</td>
-              <td>
-                <button class="btn btn-default btn-xs m-r-5" data-toggle="tooltip" data-original-title="Edit"><i class="fa fa-pencil font-14"></i></button>
-                <button class="btn btn-default btn-xs" data-toggle="tooltip" data-original-title="Delete"><i class="fa fa-trash font-14"></i></button>
-            </td>
-        </tr>
-        <tr>
-          <td>
-              <label class="ui-checkbox">
-                  <input type="checkbox">
-                  <span class="input-span"></span>
-              </label>
-            </td>
-            <td>Trần Đình Nam</td>
-            <td>07/10/2001</td>
-            <td>Hoạt động</td>
-            <td>50.000.000đ</td>
-            <td>User</td>
-            <td>
-              <button class="btn btn-default btn-xs m-r-5" data-toggle="tooltip" data-original-title="Edit"><i class="fa fa-pencil font-14"></i></button>
-              <button class="btn btn-default btn-xs" data-toggle="tooltip" data-original-title="Delete"><i class="fa fa-trash font-14"></i></button>
-          </td>
-      </tr>
-      <tr>
-        <td>
-            <label class="ui-checkbox">
-                <input type="checkbox">
-                <span class="input-span"></span>
-            </label>
-          </td>
-          <td>Trần Đình Nam</td>
-          <td>07/10/2001</td>
-          <td>Hoạt động</td>
-          <td>50.000.000đ</td>
-          <td>User</td>
-          <td>
-            <button class="btn btn-default btn-xs m-r-5" data-toggle="tooltip" data-original-title="Edit"><i class="fa fa-pencil font-14"></i></button>
-            <button class="btn btn-default btn-xs" data-toggle="tooltip" data-original-title="Delete"><i class="fa fa-trash font-14"></i></button>
-        </td>
-    </tr>
-              </tbody>
-          </table>
-      </div>
-    </div>
-  </div>
+        <div class="row-add ">
+          <div class="col-lg-6 col-sm-12 ">
+            <div class="contact-form-right ">
+                <form id="contactForm ">
+                    <div class="row ">
+                        <div class="col-md-12 ">
+                            <div class="form-group ">
+                                <textarea class="form-control " id="overview " placeholder="Mô Tả Sách " rows="4 " data-error="Write book's overview" required></textarea>
+                                <div class="help-block with-errors "></div>
+                            </div>
+                            <div class="button_outer">
+                              <div class="btn_upload">
+                                <input type="file" id="upload_file" name="">
+                                Thêm Ảnh Bìa Sách
+                              </div>
+                              <div class="processing_bar"></div>
+                              <div class="success_box"></div>
+                            </div>
+                            <div class="uploaded_file_view" id="uploaded_view">
+                              <span class="file_remove">X</span>
+                            </div>
+                            <div class="submit-button text-center">
+                              <a href="#" class="btn">Cập Nhật Đơn</a> 
+                              <div id="msgSubmit " class="h3 text-center hidden "></div>
+                              <div class="clearfix "></div>
+                            </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
     
   <!-- InstanceEndEditable -->
       
@@ -360,6 +268,7 @@
     <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/admin.js"></script>
+    <script src="./js/image-upload.js"></script>
     <!-- ALL PLUGINS -->
     <script src="./js/jquery.superslides.min.js"></script>
     <script src="./js/bootstrap-select.js"></script>
