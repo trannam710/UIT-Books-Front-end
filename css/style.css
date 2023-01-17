@@ -2715,13 +2715,13 @@ button, input, optgroup, select, textarea {
     min-width: 150px;
 }
 
-.top-selling-table .product .text-sm{
-    padding-left: 70px;
-}
+/* .top-selling-table .product .text-sm{
+     padding-left: 70px;
+} */
 
-.top-selling-table .product .text-sm1{
+/* .top-selling-table .product .text-sm1{
     padding-left: 50px;
-}
+} */
 
 .table td p {
     font-size: 14px;
