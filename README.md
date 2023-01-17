@@ -2,4 +2,4 @@
 
 <img src="./images/readme-img.png">
 
-Book Hub is a online text selling and reselling website.
+UIT Books is a online book selling website.
