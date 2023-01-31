@@ -35,7 +35,6 @@
 
 body {
      color: #000000;
-     font-size: 15px;
      font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
      line-height: 1.80857;
 }
@@ -268,8 +267,7 @@ body {
  .our-link ul li:last-child{
      border: none;
 }
- .main-header{
-}
+
  .search a{
      color: #d33b33;
 }
@@ -1331,13 +1329,13 @@ body {
 /*------------------------------------------------------------------ Copyright -------------------------------------------------------------------*/
  .footer-copyright{
      background: #2c2c2c;
-     padding: 20px 0px;
+     padding: 10px 0px;
      position: relative;
 }
  .footer-copyright p {
-     text-align: center;
-     color: #ffffff;
-     font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1%;
 }
  .footer-copyright p a{
      color: #ffffff;
@@ -2011,7 +2009,7 @@ body {
 }
  .new-account-login h5 {
      font-size: 18px;
-     color: #1111111;
+     color: #111111;
      font-weight: 600;
 }
  .new-account-login h5 a:hover{
@@ -2330,7 +2328,6 @@ body {
  .single-product-details ul{
      display: inline-block;
      width: 100%;
-/*     border: 1px #010101 dashed;*/
      margin-bottom: 30px;
 }
  .single-product-details ul li{
@@ -2368,8 +2365,6 @@ body {
      color: #ffffff;
      border: none;
 }
- .share-bar{
-}
  .share-bar a {
      background: #d33b33;
      color: #ffffff;
@@ -2378,10 +2373,7 @@ body {
      width: 34px;
      text-align: center;
 }
- .share-bar a {
-}
- .featured-products-box{
-}
+
  .featured-products-box .owl-nav{
      position: absolute;
      margin: 0 auto;
@@ -2411,9 +2403,6 @@ body {
      vertical-align: auto;
      text-align: center;
      white-space: nowrap;
-}
-.img-fluid {
-    
 }
 /*------------------------------------------------------------------ Side Nav Bar -------------------------------------------------------------------*/
 body {
@@ -2714,14 +2703,6 @@ button, input, optgroup, select, textarea {
     align-items: center;
     min-width: 150px;
 }
-
-/* .top-selling-table .product .text-sm{
-     padding-left: 70px;
-} */
-
-/* .top-selling-table .product .text-sm1{
-    padding-left: 50px;
-} */
 
 .table td p {
     font-size: 14px;
