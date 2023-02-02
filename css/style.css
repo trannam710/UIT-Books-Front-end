@@ -142,6 +142,7 @@ body {
  .bootstrap-select .dropdown-toggle:focus{
      box-shadow: none !important 
 }
+
 /*------------------------------------------------------------------ LOADER -------------------------------------------------------------------*/
  #back-to-top {
      position: fixed;
@@ -161,6 +162,7 @@ body {
      transition: opacity 0.2s ease-out;
      font-size: 30px;
 }
+
 /*------------------------------------------------------------------ HEADER -------------------------------------------------------------------*/
  .main-top{
      background: #010101;
@@ -385,6 +387,7 @@ body {
          padding-top: 10px;
     }
 }
+
 /* Navbar Inverse =================================*/
  nav.navbar.navbar-inverse{
      background-color: #222;
@@ -565,8 +568,6 @@ body {
      border: solid 1px #e0e0e0;
      left: auto;
 }
- .btn-cart{
-}
  .cart-list h6 a{
      font-size: 16px;
      font-weight: 700;
@@ -621,8 +622,6 @@ body {
      -webkit-transform: scaleY(1);
      transform: scaleY(1);
      color: #ffffff;
-}
- .hvr-hover{
 }
  ul.cart-list > li.total > .btn:hover{
      color: #ffffff;
@@ -680,6 +679,7 @@ body {
  .top-search input.form-control{
      color: #ffffff;
 }
+
 /*------------------------------------------------------------------ Slider -------------------------------------------------------------------*/
  .cover-slides{
      height: 100vh;
@@ -750,6 +750,7 @@ body {
      text-transform: uppercase;
      padding: 10px 20px;
 }
+
 /*------------------------------------------------------------------ Categories Shop -------------------------------------------------------------------*/
  .categories-shop{
      padding: 70px 0px;
@@ -796,6 +797,7 @@ body {
      font-weight: 700;
      padding: 8px 0px;
 }
+
 /*------------------------------------------------------------------ Products -------------------------------------------------------------------*/
  .title-all{
      margin-bottom: 30px;
@@ -829,8 +831,6 @@ body {
  .filter-button-group button.active{
      background: #010101;
 }
- .filter-button-group button{
-}
  .products-single {
      overflow: hidden;
      position: relative;
@@ -858,7 +858,6 @@ body {
      right: 0px;
      z-index:8;
 }
-
  .type-lb .sale{
      background: red;
      color: #ffffff;
@@ -1011,6 +1010,7 @@ body {
          -webkit-transform: translateY(0px);
     }
 }
+
 /*------------------------------------------------------------------ Blog -------------------------------------------------------------------*/
  .latest-blog{
      padding: 70px 0px;
@@ -1074,6 +1074,7 @@ body {
  .tooltip.bs-tooltip-top .arrow:before {
      border-right-color: #d33b33 !important;
 }
+
 /*------------------------------------------------------------------ Instagram Feed -------------------------------------------------------------------*/
  .instagram-box{
      padding: 70px 0px;
@@ -1175,6 +1176,7 @@ body {
      bottom: 0;
      opacity: 1;
 }
+
 /*------------------------------------------------------------------ Footer Main -------------------------------------------------------------------*/
  .footer-main{
      padding: 70px 0px;
@@ -1223,8 +1225,6 @@ body {
  .footer-widget ul li a:hover {
      color: #d33b33;
      border-color: #d33b33;
-}
- .footer-link{
 }
  .footer-link h4{
      color: #ffffff;
@@ -1326,6 +1326,7 @@ body {
  .footer-link-contact ul li p a:hover{
      color: #d33b33;
 }
+
 /*------------------------------------------------------------------ Copyright -------------------------------------------------------------------*/
  .footer-copyright{
      background: #2c2c2c;
@@ -1343,6 +1344,7 @@ body {
  .footer-copyright p a:hover{
      color: #d33b33;
 }
+
 /*------------------------------------------------------------------ All Pages -------------------------------------------------------------------*/
  .all-title-box{
      background: url("../images/all-bg-title.jpg") no-repeat center center;
@@ -2064,8 +2066,6 @@ body {
  .service-icon i{
      font-size: 34px;
 }
- .my-account-page a:hover i{
-}
  .service-desc p{
      font-size: 16px;
 }
@@ -2404,6 +2404,7 @@ body {
      text-align: center;
      white-space: nowrap;
 }
+
 /*------------------------------------------------------------------ Side Nav Bar -------------------------------------------------------------------*/
 body {
   background-color: #fbfbfb;
@@ -2481,6 +2482,7 @@ body {
 .table-responsive .table td > a{
     color: #d33b33;
 }
+
 /* ---------------------- PAGE DASHBOARD ----------------------------- */
 .row {
     flex-shrink: 0;
